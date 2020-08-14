@@ -1,0 +1,263 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+
+/* --------------------------------------- */
+
+.bar1{
+
+position: absolute;
+right:100px;
+}
+
+.jumbotron{
+
+}
+
+.vancouver-img{
+
+
+
+}
+
+
+
+/* .bc-heading{
+  position: absolute;
+  left:300px;
+} */
+
+.welcome {
+  display: inline;
+  position:absolute;
+  left: 390px;
+  top:25px;
+  font-family: Merriweather;
+
+}
+
+
+.talkwell-heading{
+
+font-family: Merriweather;
+position: absolute;
+left:10px;
+top:10px;
+}
+
+.talkwell-heading1{
+  font-family: Merriweather;
+  position: absolute;
+  top: 60px;
+  left:60px;
+
+}
+
+
+
+.box2 {
+  margin: 20px;
+
+
+}
+
+.box3 {
+  margin: 5px;
+}
+
+
+
+
+.top-container {
+  position: relative;
+  left:150px;
+  /* background-color: #eaffd0; */
+  border: 10px solid;
+  height: 100px;
+  padding:20px;
+  width: 230px;
+  display: inline-block;
+}
+
+.container1{
+display:block;
+position:absolute;
+left:170px;
+}
+
+.container2{
+position:relative;
+top:550px;
+
+}
+
+.contact-me{
+  font-family: Merriweather;
+  text-align: center;
+  margin: 200px;
+  position: absolute;
+  top:0px;
+}
+
+.tel{
+
+  font-family: Merriweather;
+}
+
+.row{
+position: relative;
+left:170px;
+}
+/* bootstrap */
+
+
+footer{
+text-align: center;
+  position: relative;
+  top:600px;
+}
+
+
+
+/* ----------------------------------------------------------------album.css */
+
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+.footerone {
+  position: relative;
+  top:20px;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.talkwell-heading {
+  font-family: Merriweather;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.talkwell-heading1 {
+  font-family: Merriweather;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.top-container {
+  position: relative;
+  left: 150px;
+
+  border: 10px solid;
+  height: 100px;
+  padding: 20px;
+  width: 230px;
+  display: inline-block;
+}
+
+.welcome {
+  display: inline;
+  position: absolute;
+  left: 290px;
+  top: 25px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.bar1 {
+  position: absolute;
+  right: 150px;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+
+
+.card-img-top{
+max-width: 600px;
+max-height: 600px;
+}
+
+
+.row2{
+text-align: center;
+position: relative;
+left:20px;
+
+}
+
+.student-img{
+
+  position: relative;
+  top: 30px;
+  left:400px;
+}
+
+
+.program-heading{
+
+text-align: center;
+position:relative;
+
+}
+
+.program-intro{
+  margin: 50px;
+text-align: center;
+font-family: Merriweather;
+}
+
+.program-footer{
+text-align: center;
+  position: absolute;
+  top:1000px;
+  left:170px;
+}
